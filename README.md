@@ -4,11 +4,12 @@ Unmarshal, disasm and pretty-print Python 3.7 bytecode.
 
 ## Intro
 
-This repository documents some experiments in python bytecode analysis (`pyc` files).
+This repository documents some experiments in CPython bytecode analysis (`pyc` files).
 
-The work is inspired by Ned Batchelder blog post http://nedbatchelder.com/blog/200804/the_structure_of_pyc_files.html
+The work is inspired by Ned Batchelder's blog post http://nedbatchelder.com/blog/200804/the_structure_of_pyc_files.html.
+CPython has changed quite a bit since the time that blog was written. 
 
-Some of the changes from 2 -> 3 are documented in https://www.python.org/dev/peps/pep-3147/.
+Some of the changes from 2 to 3 are documented in https://www.python.org/dev/peps/pep-3147/.
 The documentation is a bit out of date. In recent version of Python for instance, `imp` (referenced in the 
 PEP) has been deprecated in favour
 of `importlib`. 
