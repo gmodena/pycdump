@@ -60,5 +60,5 @@ python -m compileall example.py
 ## Disasm & dump
 
 ```$xslt
-python dump.py example.pyc
+python dump.py __pycache__/example.cpython-37.pyc
 ```
